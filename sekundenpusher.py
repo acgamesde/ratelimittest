@@ -39,7 +39,7 @@ def main():
         run_git_command("git push", REPO_PATH)
 
         print(f"Gepusht: {filename}")
-        time.sleep(1)
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
